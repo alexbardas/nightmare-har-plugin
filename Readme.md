@@ -21,8 +21,13 @@ Installs the extra methods using the Nightmare's `action` API.
 ##### `.getDevtoolsOptions()`
 Returns an object with some default devtools options Nightmare needs in order to open devtools shortly after initialization.
 
+### Install
 
-### Usage:
+```sh
+npm install nightmare-har-plugin
+```
+
+### Usage
 
 ```js
 let Nightmare = require('nightmare')

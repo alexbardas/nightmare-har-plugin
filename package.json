@@ -6,6 +6,10 @@
   "scripts": {
     "test": "standard"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexbardas/nightmare-har-plugin.git"
+  },
   "keywords": [
     "nightmare",
     "har",
