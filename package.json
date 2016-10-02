@@ -1,0 +1,24 @@
+{
+  "name": "nightmare-har-plugin",
+  "version": "0.9.0",
+  "description": "Nightmare plugin used to retrieve the network activity of a web page in HAR (HTTP Archive) format",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [
+    "nightmare",
+    "har",
+    "network",
+    "devtools",
+    "electron",
+    "plugin",
+    "testing",
+    "performance"
+  ],
+  "author": "Alex Bardas <alex.bardas@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^8.3.0"
+  }
+}
