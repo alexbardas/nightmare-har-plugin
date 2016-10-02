@@ -24,7 +24,7 @@ Returns an object with some default devtools options Nightmare needs in order to
 
 ### Usage:
 
-```
+```js
 let Nightmare = require('nightmare')
 let harPlugin = require('nightmare-har-plugin')
 
