@@ -8,6 +8,7 @@ nightmare-har-plugin
 - [Plugin API](#plugin-api)
 - [Install](#install)
 - [Usage](#usage)
+- [HAR Visualization](#har-visualization)
 - [Community](#community)
 
 ### What is nightmare-har-plugin?
@@ -60,10 +61,13 @@ nightmare
   .wait('#hnmain')
   .getHAR()
   .end()
-  .then((result) => console.log(JSON.stringify(result)))
+  .then((result) => console.log(JSON.stringify({log: result})))
   .catch((error) => console.error(error))
 ```
 
+### HAR Visualization
+
+- Copy the output of the [Usage](#usage) step into an [online HAR viewer](http://www.softwareishard.com/har/viewer/).
 
 ### Community
 
