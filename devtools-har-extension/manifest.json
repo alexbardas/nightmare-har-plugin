@@ -3,5 +3,15 @@
   "description": "Electron DevTools Extension for retrieving HAR data",
   "version": "0.1.0",
   "manifest_version": 2,
-  "devtools_page": "index.html"
+  "devtools_page": "index.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentscript.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
 }
