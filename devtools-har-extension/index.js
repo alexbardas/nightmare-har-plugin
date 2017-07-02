@@ -52,7 +52,7 @@ backgroundPageConnection.postMessage({
   tabId: window.chrome.devtools.inspectedWindow.tabId
 })
 
-backgroundPageConnection.onMessage.addListener(function (message) {
+backgroundPageConnection.onMessage.addListener((message) => {
   if (message.type === 'page') {
     har.pages.push(Object.assign({ 'id': 'page_' + pageRef }, message.data))
   }

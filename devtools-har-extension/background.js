@@ -19,13 +19,8 @@
     port.onDisconnect.addListener(function (port) {
       port.onMessage.removeListener(extensionListener)
 
-      var tabs = Object.keys(connections)
-      for (var i = 0, len = tabs.length; i < len; i++) {
-        if (connections[tabs[i]] === port) {
-          delete connections[tabs[i]]
-          break
-        }
-      }
+      let tabId = Object.keys(connections).find((tabId, idx) => connections[tabId] === port)
+      delete connections[tabId]
     })
   })
 
