@@ -25,6 +25,8 @@ Waits for devtools to open so all network requests can be captured. If not execu
 ##### `.getHAR()`
 Retrives the HAR information as a json.
 
+##### `.resetHAR()`
+Reset the current HAR information.
 
 ### Plugin API
 ##### `.install(Nightmare)`
