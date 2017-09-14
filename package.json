@@ -1,6 +1,6 @@
 {
   "name": "nightmare-har-plugin",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Nightmare plugin used to retrieve the network activity of a web page in HAR (HTTP Archive) format",
   "main": "index.js",
   "scripts": {
